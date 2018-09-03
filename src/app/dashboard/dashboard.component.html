@@ -1,0 +1,16 @@
+<div class="text-center" style="padding: 50px;">
+  <h2>Protected Dashboard Page!</h2>
+  <div class="alert alert-danger">
+    Some mission critical information here for your Angular 6 application.
+  </div>
+</div>
+
+<div class="text-center">
+   <div class="col-6" style="margin: 0 auto">
+        <div class="card" *ngFor="let item of datos">
+           <div class="card-body">
+              {{item.name}}
+          </div>  
+        </div>
+    </div>
+</div>
